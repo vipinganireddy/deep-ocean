@@ -2,7 +2,7 @@
 
 A meditative, interactive 2D canvas game showcasing graphics programming, physics simulation, and creative coding in vanilla JavaScript.
 
-**[Play it live here](https://your-vercel-url.vercel.app)** ← Replace with your actual Vercel URL
+[**[Play it live here](https://your-vercel-url.vercel.app)**](https://deep-ocean-iota.vercel.app/) ← Replace with your actual Vercel URL
 
 ## What It Is
 
