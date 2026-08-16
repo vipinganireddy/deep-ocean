@@ -2,7 +2,7 @@
 
 A meditative, interactive 2D canvas game showcasing graphics programming, physics simulation, and creative coding in vanilla JavaScript.
 
-[**[Play it live here](https://your-vercel-url.vercel.app)**](https://deep-ocean-iota.vercel.app/) ← Replace with your actual Vercel URL
+**[▶ Play it live](https://deep-ocean-iota.vercel.app/)**
 
 ## What It Is
 
@@ -23,7 +23,8 @@ Guide an Ocellaris clownfish through a sunlit reef. Tap to drop food. Watch it e
 - **Tap-to-feed** — interactive food drops follow cursor position
 
 ### Engineering
-- **Single-file deployment** — all code, assets, and styles in one `index.html` (~2200 lines)
+- **Zero build step** — no bundler, transpiler, or framework; open `index.html` and it runs
+- **Separated concerns** — markup, styles, and ~1,700 lines of game logic in their own files
 - **No dependencies** — pure vanilla JS + HTML Canvas
 - **60 FPS stable** — frame-rate independent timing, tab-switch resilience
 - **Responsive** — works on desktop and mobile browsers
@@ -37,11 +38,22 @@ Guide an Ocellaris clownfish through a sunlit reef. Tap to drop food. Watch it e
 
 ## Code Stats
 
-- **Lines:** ~2,200
+- **Lines:** ~1,700 JS · ~600 CSS
 - **Language:** Vanilla JavaScript (ES6+)
 - **Rendering:** HTML Canvas 2D API
 - **Dependencies:** None
-- **Build time:** None (static file)
+- **Build step:** None (static files)
+
+## Project Layout
+
+```
+index.html    markup and metadata
+game.js       game engine — rendering, physics, animation
+styles.css    UI and landing-screen styling
+logo.png      clownfish logo (rendered from the game's own draw code)
+favicon.png   tab icon
+preview.png   Open Graph image for link previews
+```
 
 ## Why This Project
 
